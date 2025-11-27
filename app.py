@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 27 15:06:49 2025
-
-@author: 20223281
-"""
-
 import dash
 from dash import dcc, html, Input, Output, dash_table, State, ctx, no_update
 import plotly.graph_objects as go
@@ -990,4 +983,5 @@ def download_csv(n_clicks, data):
 
 if __name__ == '__main__':
     print("DASHBOARD V34 (Grid Layout + Scroll Fix): http://127.0.0.1:8051/")
+
     app.run_server(debug=True, port=8051)

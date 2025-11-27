@@ -3,7 +3,7 @@
 A data-driven web application aimed at optimizing student debt repayment strategies versus investing scenarios (S&P 500 / All-World ETF).
 
 ## 🎯 Project Goal
-To determine the optimal financial strategy for Dutch graduates by modeling the trade-off between paying off student debt (DUO) and investing in the market. The model accounts for complex variables such as Dutch tax brackets (Box 3), purchasing power parity (inflation), and compounding interest over a 35-year horizon.
+To determine the optimal financial strategy for Dutch graduates by modeling the trade-off between paying off student debt (DUO) and investing in the market. The model accounts for complex variables such as Dutch tax brackets (Box 3), purchasing power parity (inflation), and compounding interest over a 50-year horizon.
 
 ## 🛠 Tech Stack
 * **Language:** Python 🐍

@@ -5,6 +5,19 @@ A data-driven web application aimed at optimizing student debt repayment strateg
 ## 🎯 Project Goal
 To determine the optimal financial strategy for Dutch graduates by modeling the trade-off between paying off student debt (DUO) and investing in the market. The model accounts for complex variables such as Dutch tax brackets (Box 3), purchasing power parity (inflation), and compounding interest over a 50-year horizon.
 
+## 📸 Dashboard Preview
+
+### 1. Interactive Scenario Analysis
+The main dashboard provides real-time feedback on Net Worth, Debt, and purchasing power based on user inputs.
+![Dashboard Overview](dashboard_overview.png)
+
+### 2. Long-term Wealth Projection
+Visualizes the divergence between paying off debt (Line A) versus investing the difference (Line B) over 35 years.
+![Scenario Graph](scenario_graph.png)
+
+### 3. Risk Analysis (Monte Carlo)
+A stochastic simulation using Geometric Brownian Motion to visualize market uncertainty. The fan chart shows the 10th, 50th, and 90th percentiles of potential outcomes.
+![Monte Carlo Simulation](monte_carlo.png)
 ## 🛠 Tech Stack
 * **Language:** Python 🐍
 * **Visualization:** Plotly & Dash (Interactive Dashboarding)
